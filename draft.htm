@@ -1,3 +1,139 @@
+<style>
+.hiatus {
+	margin-bottom:600px;	
+}
+
+@charset "UTF-8";
+body {
+  margin:0;
+  padding:0;
+	font-family: 'Josefin Slab', serif;
+}
+
+a {
+	color:#000;
+	text-decoration:none;	
+}
+
+#logo {
+	margin-top:1em;	
+}
+
+
+#dateheading{
+	font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+	font-size:14px;
+}
+
+.strike a:hover {
+background-color: #ff69b4;
+color: #ff69b4;
+font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+font-size:20px;
+
+}
+
+
+ul {
+	list-style:none;	
+}
+
+
+#october{
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+  	margin-top: 30;
+}
+
+#october img {
+	width:100%;
+	max-width:700px;
+}
+
+#novemberleft{
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+  	margin-top: 30;
+}
+
+#novemberright{
+	float: right;
+	width: 200px;
+	margin-right: -100%;
+	margin-top: 30;
+}
+
+#november img {
+	width:100%;
+	max-width:700px;
+}
+
+#logo a:hover {
+	opacity:.5;
+}
+
+
+
+.innertube{
+	margin: 10px;
+	margin-top: 0;
+}
+
+/* ####### responsive layout CSS ####### */
+
+@media (max-width: 525px){
+	
+	#maincontainer {
+		width:100%;	
+	}
+	
+	#contentcolumn {
+		margin-left:0;
+		clear:both;
+		margin-top:68px;
+	}
+	
+	#leftcolumn {
+		width:100%;
+		margin-left:-100%;
+	}
+
+}
+
+@media (max-width: 375px){
+	
+	#contentcolumn {
+		margin-left:0;
+		clear:both;
+		margin-top:54px;
+	}
+	
+	#leftcolumn {
+		width:100%;
+	}
+
+}
+
+
+@media (max-width: 320px){
+	
+	#contentcolumn {
+		margin-left:0;
+		clear:both;
+		margin-top:48px;
+	}
+	
+	#leftcolumn {
+		width:100%;
+	}
+
+}
+
+</style>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,24 +162,40 @@
 <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:300,400" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<style>
-.hiatus {
-	margin-bottom:600px;	
-}
-</style>
 
 
 </head>
 
 
 <body>
+<div id="october">
+	<div class="innertube">
+                    <li class="sidebar">
+                      <div class ="strike"><a href="http://shortspace.life/Show1.html">Oct 23 - Maggie Heath</a></div>
+                    </li>
+                     <br>
+                    <li class="sidebar">
+                    	<div class ="strike"><a href="http://shortspace.life/Show2.html">Oct 24 - Joel Shanahan, Ben Glas and Max Schnider</a></div>
+                    </li>
+                    <br>
+                    <li class="sidebar">
+                    	<div class ="strike"><a href="http://shortspace.life/Show3.html">Oct 26 - Radical Softeness Zine Release</a></div>
+                    </li>
+                     <br>	
+	</div>
+</div> <!-- end #october-->
+
+
+
+
+
 <div id="maincontainer">
 
     <div id="contentwrapper">
         <div id="contentcolumn">
             <div class="innertube">
             	<p>short space is an exercise in controlled explosions</p>
-              	<img src="https://33.media.tumblr.com/a5d2523e8a4fc92e1629ae9937d870f6/tumblr_nl4lm8O73g1u93xcqo1_500.gif" alt=""/>
+              	<img src="https://github.com/champagnegrapes/shortspace/blob/master/shortspace.jpg" alt=""/>
 <!-- INSERT CURRENT SHOW CARD VVVVVV -->
                 
 <!-- INSERT CURRENT SHOW TEXT VVVVVV-->
@@ -58,18 +210,7 @@
         <div class="innertube">
             <div id="nav">
                 <ul>
-                    <li class="sidebar">
-                      <div class ="strike"><a href="http://shortspace.life/Show1.html">Oct 23 - Maggie Heath</a></div>
-                    </li>
-                     <br>
-                    <li class="sidebar">
-                    	<div class ="strike"><a href="http://shortspace.life/Show2.html">Oct 24 - Joel Shanahan, Ben Glas and Max Schnider</a></div>
-                    </li>
-                    <br>
-                    <li class="sidebar">
-                    	<div class ="strike"><a href="http://shortspace.life/Show3.html">Oct 26 - Radical Softeness Zine Release</a></div>
-                    </li>
-                     <br>
+
                     <li class="sidebar">
                     	<div class ="strike"><a href="http://shortspace.life/Show4.html">Nov 5 - Jason Urici, Co La, Magic Fades</a></div>
                     </li>
